@@ -207,7 +207,6 @@ nav {
 }
 
 .box4 img {
-    height: 75%;
     width: 75%;
     display: flex;
     justify-content: end;
@@ -227,25 +226,47 @@ nav {
 
 .box5 {
     min-height: 100%;
-    background-color: #1e90ff;
     width: 60%;
-    border: 1px dashed black;
+}
+
+.box5 img {
+    width: 75%;
+    display: flex;
+    justify-content: end;
 }
 
 .box6 {
     min-height: 100%;
-    background-color: #ffc0cb;
-    width: 40%;
-    border: 1px dashed black;
+    width: 20%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-h3 {
-    display: inline-block;
+.box6 > h2 {
+    font-size: 2em;
+}
+
+.box6 p {
+    padding-top: 20px;
+    font-size: 17px;
 }
 
 .fourthcontainer {
     background-color: #d3d3d3;
     height: 1000px;
+}
+
+.greensquare > h2 {
+    font-size: 2em;
+    text-align: center;
+}
+
+.greensquare p {
+    padding-top: 20px;
+    font-size: 17px;
+    text-align: center;
+    margin: 0px 50px 0px 50px;
 }
 
 .bigsquare {
@@ -257,8 +278,19 @@ h3 {
 
 .greensquare{
     min-height: 100%;
-    background-color: #228b22;
-    border: 1px dashed black;
+    flex-direction: column;
+}
+
+.greensquare img {
+    width: 75%;
+    align-self: center;
+}
+
+#pdp {
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    margin-top: 50px;
 }
 
 footer {
