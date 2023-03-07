@@ -1,3 +1,47 @@
+/* selettori helpers */
+/* .col10 { width: 10%; }
+.col20 { width: 20%; }
+.col25 { width: 25%; }
+.col30 { width: 30%; }
+.col40 { width: 40%; }
+.col50 { width: 50%; }
+.col60 { width: 60%; }
+.col70 { width: 70%; }
+.col80 { width: 80%; }
+.col90 { width: 90%; }
+.col100 { width: 100%; }
+
+.col {
+    padding: 10px;
+}
+
+.text-left { text-align: left; }
+.text-center { text-align: center; }
+.text-right { text-align: right; }
+
+.h100 {
+    height: 100%;
+}
+
+.flex {
+    display: flex;
+}
+
+.boxed {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.bg-arancio { background-color: goldenrod; }
+.bg-gray { background-color: lightgray; }
+.bg-blue { background-color: dodgerblue; }
+.bg-pink { background-color: pink; }
+.bg-darkblue { background-color: darkblue; }
+.bg-violet { background-color: violet; }
+.bg-green { background-color: green; }
+.bg-darkgray { background-color: #23272a; }
+.bg-aqua { background-color: aquamarine; } */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -5,13 +49,13 @@
 }
 
 header {
-    background-color: #add8e6;
+    background-image:url("/img/jumbo.png");
+    background-size: cover;
 }
 
 .containerheader {
     max-width: 1200px;
     margin: 0 auto;
-    min-height: 80px;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -41,8 +85,9 @@ nav {
     text-align: end;
 }
 
+
+
 .blue {
-    background-color: #00008b;
     padding: 50px 0px 50px 0px;
     height: 500px; 
     margin: 0 auto;
@@ -57,6 +102,22 @@ nav {
     height: 100%;
     background-color: #ee82ee;
     border: 1px dashed black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titolo {
+    margin: 20px;
+    font-size: 25px;
+    color: white;
+}
+
+.paragraf {
+    padding: 0px 60px 0px 60px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
 }
 
 .white {
@@ -71,6 +132,8 @@ nav {
     margin: 0 auto;
     display: flex;
 }
+
+
 
 .box1 {
     min-height: 100%;
@@ -119,12 +182,13 @@ nav {
     border: 1px dashed black;
 }
 
+h3 {
+    display: inline-block;
+}
+
 .fourthcontainer {
     background-color: #d3d3d3;
     height: 1000px;
-    
-    
-    
 }
 
 .bigsquare {
