@@ -306,17 +306,39 @@ footer {
 }
 
 .fathersquare {
+    color: white;
+    flex-direction: column;
     min-height: 100%;
-    background-color: #f08080;
     width: 40%;
-    border: 1px dashed black;
+    padding-left: 30px;
 }
 
 .childrensquare {
+    color: white;
     min-height: 100%;
     width: 20%;
-    background-color: #20b2aa;
-    border: 1px dashed black;
+    padding-left: 30px;
+}
+
+ul li:first-child {
+    color: rgb(141, 33, 141);
+}
+
+ul {
+    list-style: none;
+}
+
+.fathersquare > div {
+    color: rgb(141, 33, 141);
+}
+
+#minititolo {
+    font-size: 20px;
+}
+
+.fathersquare img {
+    width: 5%;
+    display: inline-block;
 }
 
 .lastbox {
@@ -324,19 +346,16 @@ footer {
     justify-content: space-between;
     max-width: 1200px;
     margin: 0 auto;
-    background-color: #7fffd4;
     padding: 10px 0px 10px 0px;
     margin-top: 40px;
 }
 
 .push {
-    border: 1px dashed black;   
-    background-color: #ff86c1;
-    padding: 2px;
+    color: white;
 }
 
 .button {
-    border: 1px dashed black;
-    background-color: #ff86c1;
-    padding: 2px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
 }
